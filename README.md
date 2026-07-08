@@ -1,20 +1,79 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 PollWave
 
-# Run and deploy your AI Studio app
+PollWave is a real-time classroom polling platform built for teachers and students.
 
-This contains everything you need to run your app locally.
+Teachers can create live polls, quizzes, and voting sessions while students join instantly using a Session ID. The platform updates results in real time using Firebase.
 
-View your app in AI Studio: https://ai.studio/apps/a9404066-338d-4dc2-a9e4-b27a6a854cbe
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- 👨‍🏫 Teacher Login
+- 👨‍🎓 Student Join with Session ID
+- 📊 Live MCQ Polls
+- 👍👎 Thumbs Up / Down Voting
+- ⏱️ Live Timer
+- 📈 Live Leaderboard
+- 💬 Classroom Chat
+- ✅ Answer Reveal
+- 🛑 Stop Poll Anytime
+- 🌙 Modern Dark Theme
+- ⚡ Real-time Firebase Synchronization
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Firebase Firestore
+- Gemini AI Studio
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/PollWave.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local`
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 Vision
+
+PollWave aims to make classrooms more interactive through live polling, instant feedback, quizzes, and real-time engagement.
+
+Future updates include:
+
+- AI Question Generator
+- Poll History
+- Attendance System
+- Analytics Dashboard
+- Native Android App
+
+---
+
+## 📄 License
+
+This project is created for educational purposes.
